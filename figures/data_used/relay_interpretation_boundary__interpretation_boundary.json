@@ -1,0 +1,8 @@
+{
+  "internal_model_evidence": "InternalCascade, zero-ligand, and stage-mismatch results measure model-internal conditional dependence; they are not causal knockouts.",
+  "stage_mismatch": "Stage mismatch is a synthetic replacement with a wrong-stage ligand environment, not a biological intervention.",
+  "experiment_support": "Experiment support is reproducibility across experiments within the same Cuomo dataset, not an external cohort.",
+  "external_evidence": "No database, marker, or literature evidence is used to endorse this result.",
+  "segment_scope": "Each segment must be interpreted separately; metrics from different sample windows must not be multiplied into a causal-chain score.",
+  "ranking": "Selection scores only fixed the candidate; internal validation does not alter the relay ranking."
+}

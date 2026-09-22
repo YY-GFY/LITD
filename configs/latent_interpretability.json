@@ -1,0 +1,16 @@
+{
+  "base_config": "litd_biological_case.json",
+  "analysis_name": "litd_hierarchical_interpretability",
+  "root": "outputs/latent_interpretability",
+  "num_workers": 0,
+  "conditions": ["real", "zero_all_ligands", "stage_mismatch"],
+  "max_cells_per_window": 0,
+  "umap_max_cells": 12000,
+  "metric_max_cells": 6000,
+  "cka_max_cells": 3000,
+  "umap_n_neighbors": 30,
+  "umap_min_dist": 0.3,
+  "umap_metric": "cosine",
+  "gene_umap_max_genes": 10112,
+  "neighbor_k": 30
+}

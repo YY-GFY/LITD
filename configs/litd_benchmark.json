@@ -1,0 +1,52 @@
+{
+  "run_name": "litd_benchmark",
+  "datasets": ["hhep", "hesc"],
+  "device": "cuda:0",
+  "seed": 42,
+  "training": {
+    "batch_size": 4,
+    "epochs": 40,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.015,
+    "huber_delta": 0.5,
+    "entropy_lambda": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "train_fraction": 0.9
+  },
+  "model": {
+    "input_embed_dim": 512,
+    "hidden_dim": 160,
+    "n_heads": 4,
+    "tf_depth": 2,
+    "gene_depth": 2,
+    "mlp_ratio": 3.0,
+    "dropout": 0.25,
+    "input_mode": "scfoundation",
+    "lr_mode": "masked"
+  },
+  "inference": {
+    "batch_size": 4,
+    "n_samples": 100,
+    "edge_threshold_top500": 0.006,
+    "edge_threshold_top1000": 0.003,
+    "target_gene_counts": [500, 1000]
+  },
+  "paths": {
+    "workdir": "outputs/benchmark",
+    "scf_gene_list": "data/reference/OS_scRNA_gene_index.19264.tsv",
+    "lr_db": "data/reference/human_lr_pair.tsv",
+    "tf_db": "data/reference/TF_TG_human.csv",
+    "human_tfs": "data/reference/human-tfs.csv",
+    "string_gt": "data/reference/STRING-network.csv",
+    "hepg2_gt": "data/reference/HepG2-ChIP-seq-network.csv",
+    "hesc_gt": "data/reference/hESC-ChIP-seq-network.csv",
+    "nonspecific_gt": "data/reference/Non-specific-ChIP-seq-network.csv",
+    "scf_model_dir": "data/scfoundation/model",
+    "scf_ckpt": "data/scfoundation/model/models/models.ckpt",
+    "hhep_expr": "data/hHep/ExpressionData.csv",
+    "hhep_gene_ordering": "data/hHep/GeneOrdering.csv",
+    "hhep_existing_embedding": "data/hHep/hHep_01B-resolution_singlecell_gene_embedding_t4_resolution.npy",
+    "hesc_expr": "data/hESC/ExpressionData.csv",
+    "hesc_gene_ordering": "data/hESC/GeneOrdering.csv"
+  }
+}

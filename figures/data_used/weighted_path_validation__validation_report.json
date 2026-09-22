@@ -1,0 +1,23 @@
+{
+  "small_bruteforce": {
+    "n_edges": 4,
+    "n_tfs": 3,
+    "n_genes": 7,
+    "max_abs_error": 0.0,
+    "passed": true
+  },
+  "winner_weighted_sum_error": 2.7755575615628914e-17,
+  "winner_weighted_sum_tolerance": 1e-12,
+  "top1000_monotonic": true,
+  "top1000_unique": true,
+  "all_output_lr_edges_positive": true,
+  "n_tfs_expected_and_observed": [
+    579,
+    579
+  ],
+  "n_genes_expected_and_observed": [
+    10112,
+    10112
+  ],
+  "passed": true
+}

@@ -1,0 +1,22 @@
+config_label,display_label,dataset,metric_family,network,value,n_samples,n_genes,provenance_path
+g30,large-scale temporal training run,large-scale temporal,full_gene_tftarget_epr,STRING,0.6797954091349526,2443,10112,/data2/.../g30.../epr/epr_metrics_all_genes.json
+g30,large-scale temporal training run,large-scale temporal,full_gene_tftarget_epr,ChIP,2.5941321823283467,2443,10112,/data2/.../g30.../epr/epr_metrics_all_genes.json
+g30,large-scale temporal training run,large-scale temporal,full_gene_tftarget_epr,NonSpecific,3.5606720443073256,2443,10112,/data2/.../g30.../epr/epr_metrics_all_genes.json
+g30,large-scale temporal training run,large-scale temporal,expression_prediction,pearson,0.9216328859329224,2443,10112,/data2/.../g30.../metrics/expression_metrics.json
+g30,large-scale temporal training run,large-scale temporal,expression_prediction,genewise_pearson,0.3000279089978961,2443,10112,/data2/.../g30.../metrics/expression_metrics.json
+g30,large-scale temporal training run,large-scale temporal,expression_prediction,cellwise_pearson,0.9222611029080763,2443,10112,/data2/.../g30.../metrics/expression_metrics.json
+g30,large-scale temporal training run,large-scale temporal,expression_prediction,mse,0.04793410748243332,2443,10112,/data2/.../g30.../metrics/expression_metrics.json
+c38_hesc_40ep,benchmark hESC 40-epoch run,hESC,full_gene_tftarget_epr,STRING,1.3255518119792484,57,15803,/user/guofy/.../hesc_fullgene_epr_metrics.json
+c38_hesc_40ep,benchmark hESC 40-epoch run,hESC,full_gene_tftarget_epr,ChIP,1.848547627531139,57,15803,/user/guofy/.../hesc_fullgene_epr_metrics.json
+c38_hesc_40ep,benchmark hESC 40-epoch run,hESC,full_gene_tftarget_epr,NonSpecific,2.069030875178815,57,15803,/user/guofy/.../hesc_fullgene_epr_metrics.json
+c38_hesc_40ep,benchmark hESC 40-epoch run,hESC,expression_prediction,pearson,0.7783563733100891,57,15803,/user/guofy/.../c38_expression_summary.json
+c38_hesc_40ep,benchmark hESC 40-epoch run,hESC,expression_prediction,genewise_pearson,0.1755766498240671,57,15803,/user/guofy/.../c38_expression_summary.json
+c38_hesc_40ep,benchmark hESC 40-epoch run,hESC,expression_prediction,cellwise_pearson,0.7789352860367089,57,15803,/user/guofy/.../c38_expression_summary.json
+c38_hesc_40ep,benchmark hESC 40-epoch run,hESC,expression_prediction,mse,3.796118497848511,57,15803,/user/guofy/.../c38_expression_summary.json
+c38_hhep_40ep,benchmark hHep 40-epoch run,hHep,full_gene_tftarget_epr,STRING,3.075632526103263,35,10755,/user/guofy/.../hhep_fullgene_epr_metrics.json
+c38_hhep_40ep,benchmark hHep 40-epoch run,hHep,full_gene_tftarget_epr,ChIP,1.2635503628622773,35,10755,/user/guofy/.../hhep_fullgene_epr_metrics.json
+c38_hhep_40ep,benchmark hHep 40-epoch run,hHep,full_gene_tftarget_epr,NonSpecific,1.1650976621821176,35,10755,/user/guofy/.../hhep_fullgene_epr_metrics.json
+c38_hhep_40ep,benchmark hHep 40-epoch run,hHep,expression_prediction,pearson,0.6759600639343262,35,10755,/user/guofy/.../c38_expression_summary.json
+c38_hhep_40ep,benchmark hHep 40-epoch run,hHep,expression_prediction,genewise_pearson,0.189582114965556,35,10755,/user/guofy/.../c38_expression_summary.json
+c38_hhep_40ep,benchmark hHep 40-epoch run,hHep,expression_prediction,cellwise_pearson,0.6636164878095899,35,10755,/user/guofy/.../c38_expression_summary.json
+c38_hhep_40ep,benchmark hHep 40-epoch run,hHep,expression_prediction,mse,4.196537971496582,35,10755,/user/guofy/.../c38_expression_summary.json

@@ -1,0 +1,4 @@
+segment_id,assigned_window,ligand,receptor,tf,target_gene,selection_pathscore,selection_rank,source_file
+segment_1,day0_to_day1,MDK,ITGB1,RFX3,DKK1,0.12807217861696035,1,outputs/biological_case/relay/full_structural_relay_distinct_tf_top1000.csv
+segment_2,day1_to_day2,DKK1,LRP5,PTMA,FGF17,0.1509039306712191,1,outputs/biological_case/relay/full_structural_relay_distinct_tf_top1000.csv
+segment_3,day2_to_day3,FGF17,FGFR1,MTA2,MUL1,0.18237947407944718,1,outputs/biological_case/relay/full_structural_relay_distinct_tf_top1000.csv

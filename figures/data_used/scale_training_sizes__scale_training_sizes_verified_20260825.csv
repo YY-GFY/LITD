@@ -1,0 +1,4 @@
+config_label,dataset,training_transition_pairs,evaluation_transition_pairs,n_genes,training_cells,pair_csv_server_path,verification_date
+c38_hhep_40ep,hHep,344,35,10755,,/user/guofy/WOT_GRN_paper/standard_baseline_comparison/results/c38/datasets/hhep/data/cell_pairs_train.csv,2026-08-25
+c38_hesc_40ep,hESC,570,57,15803,,/user/guofy/WOT_GRN_paper/standard_baseline_comparison/results/c38/datasets/hesc/data/cell_pairs_train.csv,2026-08-25
+g30,large-scale temporal,24425,2443,10112,36044,/data2/guofy/scFoundation-main/model/data/cell_pairs_train.csv,2026-08-25

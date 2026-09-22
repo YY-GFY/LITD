@@ -1,0 +1,6 @@
+ablation_name,display_name,input_mode,lr_mode,pair_mode
+shuffled_temporal,Shuffled temporal order,scfoundation,masked,shuffled_temporal
+static_reconstruction,Static reconstruction,scfoundation,masked,same_time
+no_ligand_context,No ligand context,scfoundation,off,temporal
+no_lr_mask,No LR mask,scfoundation,dense,temporal
+no_scfoundation,No scFoundation,raw_expr,masked,temporal

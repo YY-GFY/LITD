@@ -1,0 +1,21 @@
+{
+  "analysis_name": "litd_distinct_tf_relay_internal_validation",
+  "mode": "formal",
+  "model_config": "configs/litd_biological_case.json",
+  "source_scripts": "workflows/biological_case",
+  "manifest": "configs/relay_selected_manifest.csv",
+  "output_dir": "outputs/biological_case/relay_internal_validation",
+  "device": "cuda:0",
+  "batch_size": 8,
+  "max_samples_per_window": 0,
+  "support_threshold_fraction": 0.5,
+  "pathscore_atol": 0.00000001,
+  "pathscore_rtol": 0.00001,
+  "expected_window_sample_counts": {
+    "day0_to_day1": 8605,
+    "day1_to_day2": 7931,
+    "day2_to_day3": 7889
+  },
+  "expected_tf_count": 579,
+  "expected_gene_count": 10112
+}

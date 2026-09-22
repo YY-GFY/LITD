@@ -1,0 +1,47 @@
+{
+  "analysis": "all-ligand all-579-TF all-10112-gene exact three-window weighted PathScore ranking",
+  "config": "/data2/guofy/scFoundation-main/bio_case_202600607/configs/g30_final_analysis.json",
+  "checkpoint": "/data2/guofy/scFoundation-main/beeline_epr_eval_20260522/results/g30_lr0.0001_wd0.015_ent0.0001_hd128_h4_tf2_gene1_mlp3_do0.25_ns100_th0.003/models/best.pth",
+  "formula": "sum_w (n_w/N) * E_w(L) * positive_LR(L,R) * AttnRT_w(R,T) * AttnTG_w(T,G)",
+  "ligand_expression_transform": "none; raw window artifact mean",
+  "positive_lr_definition": "max(0, learned_lr_weight * binary_lr_prior_mask)",
+  "n_ligands": 196,
+  "n_receptors": 168,
+  "n_tfs": 579,
+  "n_genes": 10112,
+  "n_binary_prior_edges": 574,
+  "n_positive_learned_lr_edges": 286,
+  "n_candidate_paths": 1674486528,
+  "total_samples": 24425,
+  "window_samples": {
+    "day0_to_day1": 8605,
+    "day1_to_day2": 7931,
+    "day2_to_day3": 7889
+  },
+  "window_weights": {
+    "day0_to_day1": 0.35230296827021496,
+    "day1_to_day2": 0.3247082906857728,
+    "day2_to_day3": 0.32298874104401226
+  },
+  "device": "cpu",
+  "dtype": "float64",
+  "top_k_saved": 1000,
+  "tf_priority_used": false,
+  "target_panel_used": false,
+  "generic_gene_exclusion_used": false,
+  "external_evidence_used_for_ranking": false,
+  "marker_support_used_for_ranking": false,
+  "winner": {
+    "ligand": "MDK",
+    "receptor": "ITGB1",
+    "tf": "PTMA",
+    "target_gene": "LIMD1",
+    "global_weighted_pathscore": 0.15370254827104143,
+    "protocol_class": "endogenous_candidate"
+  },
+  "named_path": {
+    "path": "FGF17->FGFR1->GATA6->DKK1",
+    "global_weighted_pathscore": 0.011014674548366644,
+    "exact_global_rank": 1016272
+  }
+}

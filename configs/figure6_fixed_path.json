@@ -1,0 +1,30 @@
+{
+  "analysis_name": "figure6_fixed_path_internal_validation",
+  "model_config": "configs/litd_biological_case.json",
+  "output_dir": "outputs/biological_case/figure6_fixed_path",
+  "ranked_paths": "outputs/biological_case/pathscore/global_weighted_pathscore_top1000.csv",
+  "path": {
+    "ligand": "MDK",
+    "receptor": "ITGB1",
+    "tf": "PTMA",
+    "target_gene": "LIMD1",
+    "expected_rank": 1
+  },
+  "device": "cuda:0",
+  "batch_size": 8,
+  "max_samples_per_window": 0,
+  "bootstrap_repeats": 10000,
+  "bootstrap_seed": 42,
+  "counterfactual_ranking_relative_tolerance": 0.001,
+  "peak_window": "day2_to_day3",
+  "expected_window_sample_counts": {
+    "day0_to_day1": 8605,
+    "day1_to_day2": 7931,
+    "day2_to_day3": 7889
+  },
+  "expected_window_experiment_counts": {
+    "day0_to_day1": 21,
+    "day1_to_day2": 17,
+    "day2_to_day3": 18
+  }
+}

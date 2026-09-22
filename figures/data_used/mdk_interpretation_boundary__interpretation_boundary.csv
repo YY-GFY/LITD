@@ -1,0 +1,8 @@
+evidence_axis,result,status,allowed_claim
+Selection,Exact global rank 1 in the preregistered full space,model_selection_fact,globally top-ranked model-derived candidate
+Stage specificity,peak=day2_to_day3; peak/second=1.818,internal_model_evidence,window-varying model score
+Zero ligand,peak-window InternalCascade fractional change=0.2124,internal_counterfactual_evidence,model sensitivity or insensitivity to MDK input
+Stage mismatch,six off-diagonal environment replacements; legacy cyclic subset retained,internal_counterfactual_evidence,condition dependence within the fixed model
+Experiment support,peak-window support fraction at 0.5x=1,internal_recurrence_evidence,cross-experiment recurrence or heterogeneity
+External validation,not evaluated in this run,not_evaluated,none
+Causality,no wet-lab perturbation and attention is not causal proof,not_established,model-derived candidate path only

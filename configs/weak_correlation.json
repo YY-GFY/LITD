@@ -1,0 +1,272 @@
+{
+  "root": "outputs/weak_correlation",
+  "datasets": {
+    "hesc": {
+      "expression": "outputs/benchmark/datasets/hesc/data/ExpressionData.csv",
+      "pairs": "outputs/benchmark/datasets/hesc/data/cell_pairs_train.csv",
+      "gene_ordering": "data/hESC/GeneOrdering.csv",
+      "chip": "data/reference/hESC-ChIP-seq-network.csv"
+    },
+    "hhep": {
+      "expression": "outputs/benchmark/datasets/hhep/data/ExpressionData.csv",
+      "pairs": "outputs/benchmark/datasets/hhep/data/cell_pairs_train.csv",
+      "gene_ordering": "data/hHep/GeneOrdering.csv",
+      "chip": "data/reference/HepG2-ChIP-seq-network.csv"
+    }
+  },
+  "ground_truth": {
+    "STRING": "data/reference/STRING-network.csv",
+    "NonSpecific": "data/reference/Non-specific-ChIP-seq-network.csv"
+  },
+  "networks": [
+    "STRING",
+    "ChIP",
+    "NonSpecific"
+  ],
+  "target_gene_counts": [
+    500,
+    1000
+  ],
+  "final_litd_edges": {
+    "hesc": {
+      "500": "outputs/weak_correlation/inputs/LITD/hesc/hesc_tgt500_all_candidate_edges.csv.gz",
+      "1000": "outputs/weak_correlation/inputs/LITD/hesc/hesc_tgt1000_all_candidate_edges.csv.gz"
+    },
+    "hhep": {
+      "500": "outputs/weak_correlation/inputs/LITD/hhep/hhep_tgt500_all_candidate_edges.csv.gz",
+      "1000": "outputs/weak_correlation/inputs/LITD/hhep/hhep_tgt1000_all_candidate_edges.csv.gz"
+    }
+  },
+  "correlation_bins": {
+    "weak": [
+      0.0,
+      0.1
+    ],
+    "medium": [
+      0.1,
+      0.3
+    ],
+    "strong": [
+      0.3,
+      1000000.0
+    ]
+  },
+  "fixed_edge_budgets": [
+    100,
+    500,
+    1000,
+    5000
+  ],
+  "seed": 42,
+  "benchmark_config": "configs/litd_benchmark.json",
+  "model_exports": {
+    "LITD": {
+      "input_mode": "scfoundation",
+      "lr_mode": "masked",
+      "checkpoints": {
+        "hesc": "outputs/benchmark/datasets/hesc/runs/litd_benchmark/models/hesc.pth",
+        "hhep": "outputs/benchmark/datasets/hhep/runs/litd_benchmark/models/hhep.pth"
+      },
+      "edges": {
+        "hesc": {
+          "500": "outputs/weak_correlation/inputs/LITD/hesc/hesc_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/LITD/hesc/hesc_tgt1000_all_candidate_edges.csv.gz"
+        },
+        "hhep": {
+          "500": "outputs/weak_correlation/inputs/LITD/hhep/hhep_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/LITD/hhep/hhep_tgt1000_all_candidate_edges.csv.gz"
+        }
+      },
+      "score_accumulation": "native_mean"
+    },
+    "Shuffled temporal order": {
+      "input_mode": "scfoundation",
+      "lr_mode": "masked",
+      "checkpoints": {
+        "hesc": "outputs/ablation/shuffled_temporal/datasets/hesc/runs/litd_benchmark__shuffled_temporal/models/hesc.pth",
+        "hhep": "outputs/ablation/shuffled_temporal/datasets/hhep/runs/litd_benchmark__shuffled_temporal/models/hhep.pth"
+      },
+      "edges": {
+        "hesc": {
+          "500": "outputs/weak_correlation/inputs/shuffled_temporal/hesc/hesc_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/shuffled_temporal/hesc/hesc_tgt1000_all_candidate_edges.csv.gz"
+        },
+        "hhep": {
+          "500": "outputs/weak_correlation/inputs/shuffled_temporal/hhep/hhep_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/shuffled_temporal/hhep/hhep_tgt1000_all_candidate_edges.csv.gz"
+        }
+      },
+      "score_accumulation": "float32_sum",
+      "workdir": "outputs/ablation/shuffled_temporal"
+    },
+    "Static reconstruction": {
+      "input_mode": "scfoundation",
+      "lr_mode": "masked",
+      "checkpoints": {
+        "hesc": "outputs/ablation/static_reconstruction/datasets/hesc/runs/litd_benchmark__static_reconstruction/models/hesc.pth",
+        "hhep": "outputs/ablation/static_reconstruction/datasets/hhep/runs/litd_benchmark__static_reconstruction/models/hhep.pth"
+      },
+      "edges": {
+        "hesc": {
+          "500": "outputs/weak_correlation/inputs/static_reconstruction/hesc/hesc_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/static_reconstruction/hesc/hesc_tgt1000_all_candidate_edges.csv.gz"
+        },
+        "hhep": {
+          "500": "outputs/weak_correlation/inputs/static_reconstruction/hhep/hhep_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/static_reconstruction/hhep/hhep_tgt1000_all_candidate_edges.csv.gz"
+        }
+      },
+      "score_accumulation": "float32_sum",
+      "workdir": "outputs/ablation/static_reconstruction"
+    },
+    "No ligand context": {
+      "input_mode": "scfoundation",
+      "lr_mode": "off",
+      "checkpoints": {
+        "hesc": "outputs/ablation/no_ligand_context/datasets/hesc/runs/litd_benchmark__no_ligand_context/models/hesc.pth",
+        "hhep": "outputs/ablation/no_ligand_context/datasets/hhep/runs/litd_benchmark__no_ligand_context/models/hhep.pth"
+      },
+      "edges": {
+        "hesc": {
+          "500": "outputs/weak_correlation/inputs/no_ligand_context/hesc/hesc_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/no_ligand_context/hesc/hesc_tgt1000_all_candidate_edges.csv.gz"
+        },
+        "hhep": {
+          "500": "outputs/weak_correlation/inputs/no_ligand_context/hhep/hhep_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/no_ligand_context/hhep/hhep_tgt1000_all_candidate_edges.csv.gz"
+        }
+      },
+      "score_accumulation": "float32_sum",
+      "workdir": "outputs/ablation/no_ligand_context"
+    },
+    "No LR mask": {
+      "input_mode": "scfoundation",
+      "lr_mode": "dense",
+      "checkpoints": {
+        "hesc": "outputs/ablation/no_lr_mask/datasets/hesc/runs/litd_benchmark__no_lr_mask/models/hesc.pth",
+        "hhep": "outputs/ablation/no_lr_mask/datasets/hhep/runs/litd_benchmark__no_lr_mask/models/hhep.pth"
+      },
+      "edges": {
+        "hesc": {
+          "500": "outputs/weak_correlation/inputs/no_lr_mask/hesc/hesc_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/no_lr_mask/hesc/hesc_tgt1000_all_candidate_edges.csv.gz"
+        },
+        "hhep": {
+          "500": "outputs/weak_correlation/inputs/no_lr_mask/hhep/hhep_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/no_lr_mask/hhep/hhep_tgt1000_all_candidate_edges.csv.gz"
+        }
+      },
+      "score_accumulation": "float32_sum",
+      "workdir": "outputs/ablation/no_lr_mask"
+    },
+    "No scFoundation": {
+      "input_mode": "raw_expr",
+      "lr_mode": "masked",
+      "checkpoints": {
+        "hesc": "outputs/ablation/no_scfoundation/datasets/hesc/runs/litd_benchmark__no_scfoundation/models/hesc.pth",
+        "hhep": "outputs/ablation/no_scfoundation/datasets/hhep/runs/litd_benchmark__no_scfoundation/models/hhep.pth"
+      },
+      "edges": {
+        "hesc": {
+          "500": "outputs/weak_correlation/inputs/no_scfoundation/hesc/hesc_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/no_scfoundation/hesc/hesc_tgt1000_all_candidate_edges.csv.gz"
+        },
+        "hhep": {
+          "500": "outputs/weak_correlation/inputs/no_scfoundation/hhep/hhep_tgt500_all_candidate_edges.csv.gz",
+          "1000": "outputs/weak_correlation/inputs/no_scfoundation/hhep/hhep_tgt1000_all_candidate_edges.csv.gz"
+        }
+      },
+      "score_accumulation": "float32_sum",
+      "workdir": "outputs/ablation/no_scfoundation"
+    }
+  },
+  "external_edges": {
+    "PPCOR": {
+      "hesc": {
+        "500": "resources/weak_correlation/PPCOR/hesc_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/PPCOR/hesc_tgt1000.csv.gz"
+      },
+      "hhep": {
+        "500": "resources/weak_correlation/PPCOR/hhep_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/PPCOR/hhep_tgt1000.csv.gz"
+      }
+    },
+    "GENIE3": {
+      "hesc": {
+        "500": "resources/weak_correlation/GENIE3/hesc_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/GENIE3/hesc_tgt1000.csv.gz"
+      },
+      "hhep": {
+        "500": "resources/weak_correlation/GENIE3/hhep_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/GENIE3/hhep_tgt1000.csv.gz"
+      }
+    },
+    "GRNBoost2": {
+      "hesc": {
+        "500": "resources/weak_correlation/GRNBoost2/hesc_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/GRNBoost2/hesc_tgt1000.csv.gz"
+      },
+      "hhep": {
+        "500": "resources/weak_correlation/GRNBoost2/hhep_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/GRNBoost2/hhep_tgt1000.csv.gz"
+      }
+    },
+    "PIDC": {
+      "hesc": {
+        "500": "resources/weak_correlation/PIDC/hesc_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/PIDC/hesc_tgt1000.csv.gz"
+      },
+      "hhep": {
+        "500": "resources/weak_correlation/PIDC/hhep_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/PIDC/hhep_tgt1000.csv.gz"
+      }
+    },
+    "SCODE": {
+      "hesc": {
+        "500": "resources/weak_correlation/SCODE/hesc_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/SCODE/hesc_tgt1000.csv.gz"
+      },
+      "hhep": {
+        "500": "resources/weak_correlation/SCODE/hhep_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/SCODE/hhep_tgt1000.csv.gz"
+      }
+    },
+    "SINCERITIES": {
+      "hesc": {
+        "500": "resources/weak_correlation/SINCERITIES/hesc_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/SINCERITIES/hesc_tgt1000.csv.gz"
+      },
+      "hhep": {
+        "500": "resources/weak_correlation/SINCERITIES/hhep_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/SINCERITIES/hhep_tgt1000.csv.gz"
+      }
+    },
+    "Full LITD": {
+      "hesc": {
+        "500": "resources/weak_correlation/LITD_full_ablation/hesc_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/LITD_full_ablation/hesc_tgt1000.csv.gz"
+      },
+      "hhep": {
+        "500": "resources/weak_correlation/LITD_full_ablation/hhep_tgt500.csv.gz",
+        "1000": "resources/weak_correlation/LITD_full_ablation/hhep_tgt1000.csv.gz"
+      }
+    }
+  },
+  "expected_methods": [
+    "LITD",
+    "Shuffled temporal order",
+    "Static reconstruction",
+    "No ligand context",
+    "No LR mask",
+    "No scFoundation",
+    "Full LITD",
+    "PPCOR",
+    "GENIE3",
+    "GRNBoost2",
+    "PIDC",
+    "SCODE",
+    "SINCERITIES",
+    "Pearson",
+    "Spearman"
+  ]
+}

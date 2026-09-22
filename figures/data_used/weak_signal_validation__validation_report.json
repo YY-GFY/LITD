@@ -1,0 +1,40 @@
+{
+  "metric_file_count": 4,
+  "settings_present": [
+    "hesc_tgt1000",
+    "hesc_tgt500",
+    "hhep_tgt1000",
+    "hhep_tgt500"
+  ],
+  "methods_present": [
+    "GENIE3",
+    "GRNBoost2",
+    "LITD_c38",
+    "LITD_full_ablation",
+    "LITD_no_ligand",
+    "LITD_no_lr_mask",
+    "LITD_no_scfoundation",
+    "LITD_same_time",
+    "LITD_shuffled_temporal",
+    "PIDC",
+    "PPCOR",
+    "Pearson",
+    "SCODE",
+    "SINCERITIES",
+    "Spearman"
+  ],
+  "expected_methods_missing": [],
+  "all_four_settings_present": true,
+  "primary_networks": [
+    "STRING",
+    "NonSpecific",
+    "ChIP"
+  ],
+  "LITD_vs_correlation_setting_count": 12,
+  "LITD_weak_static_wins": 12,
+  "claim_supported_against_Pearson_Spearman_all_settings": true,
+  "primary_metric": "within-stratum exact-topK EPR",
+  "primary_metric_selection_mode": "K equals gold-edge count within each evaluated stratum",
+  "primary_metric_tie_policy": "final c38 deterministic sort: score desc, Gene1 asc, Gene2 asc, then head K",
+  "result_boundary": "Final only when expected_methods_missing is empty; otherwise this is an interim evaluation."
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "path": "main/Figure1_LITD_model_architecture.ai",
+    "bytes": 54850,
+    "sha256": "3d4f69b6cdb63fb8e311a23ff88e7e19543cfda084bfe8a6b9301cc3bfbc5e4a"
+  },
+  {
+    "path": "main/Figure1_LITD_model_architecture.pdf",
+    "bytes": 54850,
+    "sha256": "3d4f69b6cdb63fb8e311a23ff88e7e19543cfda084bfe8a6b9301cc3bfbc5e4a"
+  },
+  {
+    "path": "main/Figure1_LITD_model_architecture.svg",
+    "bytes": 32441,
+    "sha256": "c8534489a9d1620d1947a47f5224c2b3ee41f9e7a121b4e3a763ba1e38bb01c2"
+  },
+  {
+    "path": "main/Figure1_LITD_model_architecture_600dpi.png",
+    "bytes": 415923,
+    "sha256": "b0804433b2899045f0dc13a15b6bc779dc4c8e854fa9ab331b9acd8e836d31ac"
+  },
+  {
+    "path": "main/Figure2_human_benchmark_GRN_performance.ai",
+    "bytes": 41444,
+    "sha256": "6f183af2a5f36a28a019861a77fea1684c8034d160404cf4c56b5eb71512e87a"
+  },
+  {
+    "path": "main/Figure2_human_benchmark_GRN_performance.pdf",
+    "bytes": 41444,
+    "sha256": "6f183af2a5f36a28a019861a77fea1684c8034d160404cf4c56b5eb71512e87a"
+  },
+  {
+    "path": "main/Figure2_human_benchmark_GRN_performance.svg",
+    "bytes": 71072,
+    "sha256": "1b566f75617a971b07018ac6215d72cbf291afdd1db0920f94c34334402c56a6"
+  },
+  {
+    "path": "main/Figure2_human_benchmark_GRN_performance_600dpi.png",
+    "bytes": 632494,
+    "sha256": "4315f2c5add6cd48ed7b46e839a2a0842b410bb9054adb46d09c8ddfda1be937"
+  },
+  {
+    "path": "main/Figure3_standard_benchmark_ablation.ai",
+    "bytes": 41959,
+    "sha256": "c2812c2cf13d1d763fd85c7c8ce7385dcbd843e49adf9b489215f7594ad68e9c"
+  },
+  {
+    "path": "main/Figure3_standard_benchmark_ablation.pdf",
+    "bytes": 41959,
+    "sha256": "c2812c2cf13d1d763fd85c7c8ce7385dcbd843e49adf9b489215f7594ad68e9c"
+  },
+  {
+    "path": "main/Figure3_standard_benchmark_ablation.svg",
+    "bytes": 63904,
+    "sha256": "02d4b3baccf4a75a51806c0766db04f3fd9ba23d3ba355ed763a5a21d2f2501a"
+  },
+  {
+    "path": "main/Figure3_standard_benchmark_ablation_600dpi.png",
+    "bytes": 643358,
+    "sha256": "db7293369097413990da0875f575b237a8cbda8de6f8bed98f0a1c7b9fa0c824"
+  },
+  {
+    "path": "main/Figure4_correlation_stratified_GRN_recovery.ai",
+    "bytes": 32628,
+    "sha256": "fe71655163379c83110861a24e3d07b8ac3c7dff2f31db8ab6bd1c5df823cd41"
+  },
+  {
+    "path": "main/Figure4_correlation_stratified_GRN_recovery.pdf",
+    "bytes": 32628,
+    "sha256": "fe71655163379c83110861a24e3d07b8ac3c7dff2f31db8ab6bd1c5df823cd41"
+  },
+  {
+    "path": "main/Figure4_correlation_stratified_GRN_recovery.svg",
+    "bytes": 25594,
+    "sha256": "c934b536f7958e74f6a66dca9869aa0b34a705b22abfa09a3f17432e6feeb8a0"
+  },
+  {
+    "path": "main/Figure4_correlation_stratified_GRN_recovery_600dpi.png",
+    "bytes": 190014,
+    "sha256": "a62a0230562e5577f1e0e840a9e4972eb37b2e0a651a3aaaae2a6069d1c4e625"
+  },
+  {
+    "path": "main/Figure5_correlation_stratified_ablation.ai",
+    "bytes": 41947,
+    "sha256": "ee8fe60b4c37020a80ed38ee1bbfaf6009f35860a34f6652e9bcbeb8b412029f"
+  },
+  {
+    "path": "main/Figure5_correlation_stratified_ablation.pdf",
+    "bytes": 41947,
+    "sha256": "ee8fe60b4c37020a80ed38ee1bbfaf6009f35860a34f6652e9bcbeb8b412029f"
+  },
+  {
+    "path": "main/Figure5_correlation_stratified_ablation.svg",
+    "bytes": 55026,
+    "sha256": "e83a29d2f5e8bd91014f28c22d72e2e52300a8cc57e7b4fa0723c0f77d84840b"
+  },
+  {
+    "path": "main/Figure5_correlation_stratified_ablation_600dpi.png",
+    "bytes": 615716,
+    "sha256": "006a587bbfb99325f20b2b84a7fd0f10862d6b723c728868d708e8172bda9e92"
+  },
+  {
+    "path": "main/Figure6_MDK_ITGB1_PTMA_LIMD1_global_PathScore.ai",
+    "bytes": 36699,
+    "sha256": "88529c0eb1ec5d5097e6942c4fae51b9bf107441023ac4894607ac02d583a0a6"
+  },
+  {
+    "path": "main/Figure6_MDK_ITGB1_PTMA_LIMD1_global_PathScore.pdf",
+    "bytes": 36699,
+    "sha256": "88529c0eb1ec5d5097e6942c4fae51b9bf107441023ac4894607ac02d583a0a6"
+  },
+  {
+    "path": "main/Figure6_MDK_ITGB1_PTMA_LIMD1_global_PathScore.svg",
+    "bytes": 29126,
+    "sha256": "3df10b83b3dee40ed9d66e81aa7aa910b3af9a94bc13af630be8fb53a9959923"
+  },
+  {
+    "path": "main/Figure6_MDK_ITGB1_PTMA_LIMD1_global_PathScore_600dpi.png",
+    "bytes": 366805,
+    "sha256": "e0d332ccac7fbc67be5e8f5d3a55a9fafb10431172bc223aadf9681484015171"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S1_next_state_expression_prediction.ai",
+    "bytes": 32689,
+    "sha256": "1822746736a041da5758af8cab47f7d28d945b5614f7f1c18e997d5d15661c6a"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S1_next_state_expression_prediction.pdf",
+    "bytes": 32689,
+    "sha256": "1822746736a041da5758af8cab47f7d28d945b5614f7f1c18e997d5d15661c6a"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S1_next_state_expression_prediction.svg",
+    "bytes": 17484,
+    "sha256": "e803e8ef0f24d301cfb487d4a65ed758645c609695829b16955f04366a46c5de"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S1_next_state_expression_prediction_600dpi.png",
+    "bytes": 138089,
+    "sha256": "2abe4e062c89c62c2ed55bedec6b236d06a312f343d4c8257e68fd533370549c"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S2_dataset_level_correlation_stratified_GRN_recovery.ai",
+    "bytes": 46562,
+    "sha256": "fbe8db14955b69255f9b51310929e3f6208605e8a13c0b134427fde11fa414a3"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S2_dataset_level_correlation_stratified_GRN_recovery.pdf",
+    "bytes": 46562,
+    "sha256": "fbe8db14955b69255f9b51310929e3f6208605e8a13c0b134427fde11fa414a3"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S2_dataset_level_correlation_stratified_GRN_recovery.svg",
+    "bytes": 130137,
+    "sha256": "d3ab44e6250cdb5e430fd54b1a9eba805301149684795ce173d9a7adf5204689"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S2_dataset_level_correlation_stratified_GRN_recovery_600dpi.png",
+    "bytes": 895353,
+    "sha256": "218936166453d62fc6cf1ad8477986f9d3b2e7c3285d0302c3dd21eb891b90a8"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S3_candidate_relay_TF_handoff.ai",
+    "bytes": 103655,
+    "sha256": "cfd1fd10767f370da239cdafbbddc233f3c6f57804fe0b91e0b49453e9bd3f3c"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S3_candidate_relay_TF_handoff.pdf",
+    "bytes": 103655,
+    "sha256": "cfd1fd10767f370da239cdafbbddc233f3c6f57804fe0b91e0b49453e9bd3f3c"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S3_candidate_relay_TF_handoff.svg",
+    "bytes": 36440,
+    "sha256": "6f8e89f0263896c7207cf190d91e2660bacae4e7c33c872509600dffcdc5b9c2"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S3_candidate_relay_TF_handoff_600dpi.png",
+    "bytes": 353280,
+    "sha256": "c3330bed13b3d05bec12e00e285f920d69e83eedcebb336e4d5d4edd752d974e"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S4_scale_aware_context.ai",
+    "bytes": 32838,
+    "sha256": "f637c80c7e117de5977ecbb5a195007eb353e358eb86c28127370777480a657d"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S4_scale_aware_context.pdf",
+    "bytes": 32838,
+    "sha256": "f637c80c7e117de5977ecbb5a195007eb353e358eb86c28127370777480a657d"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S4_scale_aware_context.svg",
+    "bytes": 19252,
+    "sha256": "88d86153eea78fac76c0a4ebd64859af57bc184b7047683c9f0e0c7aa88213f5"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S4_scale_aware_context_600dpi.png",
+    "bytes": 232096,
+    "sha256": "f761279921eb4c606ac264c94d9ff6a8e717034ca8815cfc4086f458b6efe4be"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S5_hierarchical_latent_interpretability.ai",
+    "bytes": 129000,
+    "sha256": "2edd57afb329a83e4870e4020cfdb1888b55ad3a00b4dabe838b73c4befcd5ac"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S5_hierarchical_latent_interpretability.pdf",
+    "bytes": 129000,
+    "sha256": "2edd57afb329a83e4870e4020cfdb1888b55ad3a00b4dabe838b73c4befcd5ac"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S5_hierarchical_latent_interpretability.svg",
+    "bytes": 172480,
+    "sha256": "5f98b60de1f9f7a241c7c2f8e450d9e821595098232912fff397f6a13a591566"
+  },
+  {
+    "path": "supplementary/Supplementary_Figure_S5_hierarchical_latent_interpretability_600dpi.png",
+    "bytes": 2941742,
+    "sha256": "840198c504dd28a8b25b0e053b421b0f5f0a977d3e1712299c0f9eb23ac04974"
+  }
+]

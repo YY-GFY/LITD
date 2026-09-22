@@ -1,0 +1,13 @@
+config_label,dataset,training_transition_pairs,metric,value,aggregation
+c38_hesc_40ep,hESC,570,mean_full_gene_EPR,1.7477101048964008,"arithmetic mean across STRING, ChIP and NonSpecific"
+c38_hhep_40ep,hHep,344,mean_full_gene_EPR,1.834760183715886,"arithmetic mean across STRING, ChIP and NonSpecific"
+g30,large-scale temporal,24425,mean_full_gene_EPR,2.278199878590208,"arithmetic mean across STRING, ChIP and NonSpecific"
+g30,large-scale temporal,24425,pearson,0.9216328859329224,none
+g30,large-scale temporal,24425,genewise_pearson,0.3000279089978961,none
+g30,large-scale temporal,24425,cellwise_pearson,0.9222611029080764,none
+c38_hesc_40ep,hESC,570,pearson,0.7783563733100891,none
+c38_hesc_40ep,hESC,570,genewise_pearson,0.1755766498240671,none
+c38_hesc_40ep,hESC,570,cellwise_pearson,0.7789352860367089,none
+c38_hhep_40ep,hHep,344,pearson,0.6759600639343262,none
+c38_hhep_40ep,hHep,344,genewise_pearson,0.189582114965556,none
+c38_hhep_40ep,hHep,344,cellwise_pearson,0.6636164878095899,none

@@ -1,0 +1,55 @@
+{
+  "base_config": "litd_benchmark.json",
+  "analysis_name": "litd_expression_prediction",
+  "root": "outputs/expression_prediction",
+  "datasets": ["hhep", "hesc"],
+  "split_seed": 42,
+  "train_fraction": 0.9,
+  "num_workers": 4,
+  "reported_methods": [
+    "LITD",
+    "MLP",
+    "persistence",
+    "PRESCIENT",
+    "scFoundation-MLP",
+    "stage mean"
+  ],
+  "mlp": {
+    "hidden_dims": {"hhep": 97, "hesc": 79},
+    "learning_rate": 0.00005,
+    "weight_decay": 0.02,
+    "dropout": 0.3,
+    "epochs": 40,
+    "batch_size": 4
+  },
+  "scfoundation_mlp": {
+    "hidden_dim": 128,
+    "learning_rate": 0.00005,
+    "weight_decay": 0.02,
+    "dropout": 0.3,
+    "epochs": 40,
+    "batch_size": 4
+  },
+  "stage_mean_groupby": ["experiment", "cell_line", "day_source"],
+  "prescient": {
+    "source_dir": "external/PRESCIENT",
+    "runner": "workflows/expression_prediction/run_prescient.py",
+    "num_pcs": 50,
+    "layers": 2,
+    "k_dim": 200,
+    "activation": "softplus",
+    "pretrain_epochs": 50,
+    "train_epochs": 200,
+    "train_learning_rate": 0.01,
+    "time_step": 0.1,
+    "noise_scale": 0.5,
+    "tau": 0.000001,
+    "train_batch_fraction": 0.1,
+    "gradient_clip": 0.25,
+    "save_every": 50,
+    "num_simulations": 8,
+    "evaluation_batch_size": 128,
+    "note": "Install the upstream PRESCIENT source at source_dir; the repository adapter uses the shared split and output contract."
+  },
+  "paper_snapshot": "figures/data_used/expression__expression_prediction_paper_results.csv"
+}

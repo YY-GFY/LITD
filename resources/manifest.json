@@ -1,0 +1,402 @@
+[
+  {
+    "path": "biological_case/TF_TG_human.csv",
+    "bytes": 758172,
+    "sha256": "b9cc619d798c69f2ed296cfedbdf50824f9521151dcdbd18039b89e8b95f732a",
+    "install_to": "data/biological_case/TF_TG_human.csv",
+    "installed_sha256": "b9cc619d798c69f2ed296cfedbdf50824f9521151dcdbd18039b89e8b95f732a",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "biological_case/cell_metadata.tsv",
+    "bytes": 1037117,
+    "sha256": "61bc9642168972845ae5e33027bbaeff199cfedc1cb13f54c35cbaa7bf06ae7d",
+    "install_to": "data/biological_case/cell_metadata.tsv",
+    "installed_sha256": "61bc9642168972845ae5e33027bbaeff199cfedc1cb13f54c35cbaa7bf06ae7d",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "biological_case/cell_pairs_train.csv",
+    "bytes": 1614091,
+    "sha256": "1085818a998b5eb1101baa3850d12e0d8d1c4240039780223c0f235e75164eeb",
+    "install_to": "data/biological_case/cell_pairs_train.csv",
+    "installed_sha256": "1085818a998b5eb1101baa3850d12e0d8d1c4240039780223c0f235e75164eeb",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "biological_case/env_context_dict.pt.gz",
+    "bytes": 140397,
+    "sha256": "ca58e52be30f28556732fd4515a6302d0670842322e111b8060e4f611d5655fe",
+    "install_to": "data/biological_case/env_context_dict.pt",
+    "installed_sha256": "bf178f949d1f7ed410565a8f8c4ff18b74185d7a450ee3179fdde77e2ccdd0cb",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "biological_case/filtered_lr_pairs.tsv",
+    "bytes": 61006,
+    "sha256": "5182a3db91ef0add239fcf735bf47155ca553b1dbe5cc69deecb9e5d55396f2f",
+    "install_to": "data/biological_case/filtered_lr_pairs.tsv",
+    "installed_sha256": "5182a3db91ef0add239fcf735bf47155ca553b1dbe5cc69deecb9e5d55396f2f",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "biological_case/ligand_list.tsv",
+    "bytes": 2802,
+    "sha256": "0e9f435cb7e215c777f275c4db76c5d0c52dc3fffeac2b9644bd203d4791fc35",
+    "install_to": "data/biological_case/ligand_list.tsv",
+    "installed_sha256": "0e9f435cb7e215c777f275c4db76c5d0c52dc3fffeac2b9644bd203d4791fc35",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "biological_case/receptor_list.tsv",
+    "bytes": 2410,
+    "sha256": "8fee2bff86082c2d7956dd418faa60362b7a980d84dd518b5f755c7c78d9e7bf",
+    "install_to": "data/biological_case/receptor_list.tsv",
+    "installed_sha256": "8fee2bff86082c2d7956dd418faa60362b7a980d84dd518b5f755c7c78d9e7bf",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "biological_case/target_genes_10112.tsv",
+    "bytes": 113357,
+    "sha256": "cf809150173929ca6424f45fcd433442d1f2f846f4dc8208c9262e6ef5b451a2",
+    "install_to": "data/biological_case/target_genes_10112.tsv",
+    "installed_sha256": "cf809150173929ca6424f45fcd433442d1f2f846f4dc8208c9262e6ef5b451a2",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "biological_case/tf_list.tsv",
+    "bytes": 8428,
+    "sha256": "7d659a6cb859ee8307dc5be92af260a18ccccd90586792f0d8c8891e79416fa1",
+    "install_to": "data/biological_case/tf_list.tsv",
+    "installed_sha256": "7d659a6cb859ee8307dc5be92af260a18ccccd90586792f0d8c8891e79416fa1",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "checkpoints/biological_case_best.pth.gz",
+    "bytes": 5015321,
+    "sha256": "6c3fc3d1ff02f2d484af23e5874aef65754054398bad22476cd6f39be96c7535",
+    "install_to": "outputs/biological_case/results/litd_biological_case/models/best.pth",
+    "installed_sha256": "715eedd0b188e6a271aa311fd505eccc2423c190f3db975304e439d4f91f4b9c",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "hESC/ExpressionData.csv.gz",
+    "bytes": 54836411,
+    "sha256": "36febf3819f19192d8e46f1e417e620ce52ce648b283a512e96d37afce0f4d21",
+    "install_to": "data/hESC/ExpressionData.csv",
+    "installed_sha256": "6c3d342d253defabc96795634b1b88409b30e24d3814fd3830a33292769e35e7",
+    "origin": "BEELINE benchmark data and reference networks"
+  },
+  {
+    "path": "hESC/GeneOrdering.csv",
+    "bytes": 768406,
+    "sha256": "2ea378fcfbaf7928cede47074a4e1ccefc935aee468ca3fc67839538702591d3",
+    "install_to": "data/hESC/GeneOrdering.csv",
+    "installed_sha256": "2ea378fcfbaf7928cede47074a4e1ccefc935aee468ca3fc67839538702591d3",
+    "origin": "BEELINE benchmark data and reference networks"
+  },
+  {
+    "path": "hHep/ExpressionData.csv.gz",
+    "bytes": 22179784,
+    "sha256": "8386f63e46f6b3945c3aa5dc555d6df3b6bff5d4a48e3bd57380bc959c9e239e",
+    "install_to": "data/hHep/ExpressionData.csv",
+    "installed_sha256": "cdb9879cb1b3a807c690317bf95410f66c1de6567766f9df2c2a4992aa681494",
+    "origin": "BEELINE benchmark data and reference networks"
+  },
+  {
+    "path": "hHep/GeneOrdering.csv",
+    "bytes": 497892,
+    "sha256": "bb671efed79c048f26ef56a4ed85b1962dc62cc356b9358a3f811eaede0b1739",
+    "install_to": "data/hHep/GeneOrdering.csv",
+    "installed_sha256": "bb671efed79c048f26ef56a4ed85b1962dc62cc356b9358a3f811eaede0b1739",
+    "origin": "BEELINE benchmark data and reference networks"
+  },
+  {
+    "path": "reference/HepG2-ChIP-seq-network.csv",
+    "bytes": 4080859,
+    "sha256": "6b9d361ab05ca918d486ec470d932b4eaa3052e60bf1be843ca1c721b893cab9",
+    "install_to": "data/reference/HepG2-ChIP-seq-network.csv",
+    "installed_sha256": "6b9d361ab05ca918d486ec470d932b4eaa3052e60bf1be843ca1c721b893cab9",
+    "origin": "BEELINE benchmark data and reference networks"
+  },
+  {
+    "path": "reference/Non-specific-ChIP-seq-network.csv",
+    "bytes": 6220368,
+    "sha256": "e4fa3dcb23e2cdaf9f815ee299174f1ebc7b210b5444453354df4ed7312fcdac",
+    "install_to": "data/reference/Non-specific-ChIP-seq-network.csv",
+    "installed_sha256": "e4fa3dcb23e2cdaf9f815ee299174f1ebc7b210b5444453354df4ed7312fcdac",
+    "origin": "BEELINE benchmark data and reference networks"
+  },
+  {
+    "path": "reference/OS_scRNA_gene_index.19264.tsv",
+    "bytes": 228232,
+    "sha256": "bb337ea195d94e7b033543abc02a42e7060d6562eba97deb077f7dcecec62661",
+    "install_to": "data/reference/OS_scRNA_gene_index.19264.tsv",
+    "installed_sha256": "bb337ea195d94e7b033543abc02a42e7060d6562eba97deb077f7dcecec62661",
+    "origin": "scFoundation gene vocabulary"
+  },
+  {
+    "path": "reference/STRING-network.csv",
+    "bytes": 2407286,
+    "sha256": "316a0befe3203b3d751d7b8beea3eeddc1139e6def71b42159051d5de5e9830e",
+    "install_to": "data/reference/STRING-network.csv",
+    "installed_sha256": "316a0befe3203b3d751d7b8beea3eeddc1139e6def71b42159051d5de5e9830e",
+    "origin": "BEELINE benchmark data and reference networks"
+  },
+  {
+    "path": "reference/TF_TG_human.csv",
+    "bytes": 758172,
+    "sha256": "b9cc619d798c69f2ed296cfedbdf50824f9521151dcdbd18039b89e8b95f732a",
+    "install_to": "data/reference/TF_TG_human.csv",
+    "installed_sha256": "b9cc619d798c69f2ed296cfedbdf50824f9521151dcdbd18039b89e8b95f732a",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "reference/hESC-ChIP-seq-network.csv",
+    "bytes": 5191494,
+    "sha256": "4484a32ab1a83ed1f37083c6f0fa510384b4005a4fc0bccf33ff9919d44968c2",
+    "install_to": "data/reference/hESC-ChIP-seq-network.csv",
+    "installed_sha256": "4484a32ab1a83ed1f37083c6f0fa510384b4005a4fc0bccf33ff9919d44968c2",
+    "origin": "BEELINE benchmark data and reference networks"
+  },
+  {
+    "path": "reference/human-tfs.csv",
+    "bytes": 37709,
+    "sha256": "8f7d29d0cd4ee3c365cca33a9e52d0fd48431e70e5d64be2ee3971954936b03e",
+    "install_to": "data/reference/human-tfs.csv",
+    "installed_sha256": "8f7d29d0cd4ee3c365cca33a9e52d0fd48431e70e5d64be2ee3971954936b03e",
+    "origin": "BEELINE benchmark data and reference networks"
+  },
+  {
+    "path": "reference/human_lr_pair.tsv",
+    "bytes": 363670,
+    "sha256": "ec272af509270efae99e5e3b9a0667755f5bb16f5aa6be65c97ec097fb07e84b",
+    "install_to": "data/reference/human_lr_pair.tsv",
+    "installed_sha256": "ec272af509270efae99e5e3b9a0667755f5bb16f5aa6be65c97ec097fb07e84b",
+    "origin": "CellTalkDB human LR catalogue"
+  },
+  {
+    "path": "weak_correlation/GENIE3/hesc_tgt1000.csv.gz",
+    "bytes": 26463173,
+    "sha256": "2b6777d7ff4a2a3b8ea94b9562a0237c37747e295c1f1cd1600999a288096bae",
+    "install_to": null,
+    "installed_sha256": "2b6777d7ff4a2a3b8ea94b9562a0237c37747e295c1f1cd1600999a288096bae",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/GENIE3/hesc_tgt500.csv.gz",
+    "bytes": 21395085,
+    "sha256": "71517c4721e3d44837452a0310f1c54e6a70ab4ffc1a718fb6f89cf56903ed3c",
+    "install_to": null,
+    "installed_sha256": "71517c4721e3d44837452a0310f1c54e6a70ab4ffc1a718fb6f89cf56903ed3c",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/GENIE3/hhep_tgt1000.csv.gz",
+    "bytes": 16941970,
+    "sha256": "c902e583a393cc54beb69f9761d987222d8f69e2ce4fcae90321d0f880498bd5",
+    "install_to": null,
+    "installed_sha256": "c902e583a393cc54beb69f9761d987222d8f69e2ce4fcae90321d0f880498bd5",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/GENIE3/hhep_tgt500.csv.gz",
+    "bytes": 13131457,
+    "sha256": "15bc2e6659469ce8ee46d60fb7587d35d8f6e29b2ad5a6984ae7f104fae71cfd",
+    "install_to": null,
+    "installed_sha256": "15bc2e6659469ce8ee46d60fb7587d35d8f6e29b2ad5a6984ae7f104fae71cfd",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/GRNBoost2/hesc_tgt1000.csv.gz",
+    "bytes": 3774167,
+    "sha256": "c380aa82c42286975b044ed28045b7b9bb55a0931f134952913472b0383c8411",
+    "install_to": null,
+    "installed_sha256": "c380aa82c42286975b044ed28045b7b9bb55a0931f134952913472b0383c8411",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/GRNBoost2/hesc_tgt500.csv.gz",
+    "bytes": 3014745,
+    "sha256": "085be1d3b3c58326a69795188842634fda7a0edfa9155576b60245db29a09cde",
+    "install_to": null,
+    "installed_sha256": "085be1d3b3c58326a69795188842634fda7a0edfa9155576b60245db29a09cde",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/GRNBoost2/hhep_tgt1000.csv.gz",
+    "bytes": 3435084,
+    "sha256": "30038dbba2d6a7d39f5ae7b2ef6b794a0db85e4c1e76f0442c6c1cc2d1745ee4",
+    "install_to": null,
+    "installed_sha256": "30038dbba2d6a7d39f5ae7b2ef6b794a0db85e4c1e76f0442c6c1cc2d1745ee4",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/GRNBoost2/hhep_tgt500.csv.gz",
+    "bytes": 2626496,
+    "sha256": "61028c30c13ec0004e72ae2dc76079a4ca89768b59b5d2e4979f76a3c9b8fb56",
+    "install_to": null,
+    "installed_sha256": "61028c30c13ec0004e72ae2dc76079a4ca89768b59b5d2e4979f76a3c9b8fb56",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/LITD_full_ablation/hesc_tgt1000.csv.gz",
+    "bytes": 16542664,
+    "sha256": "42de846edb29e166e58ae5656c765f5ea80847b747cdd1996aae6c77fc0a6a6f",
+    "install_to": null,
+    "installed_sha256": "42de846edb29e166e58ae5656c765f5ea80847b747cdd1996aae6c77fc0a6a6f",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/LITD_full_ablation/hesc_tgt500.csv.gz",
+    "bytes": 13441968,
+    "sha256": "a7b18f92ea2a15eb9d2ea77bf145dd144aa3f2400c61d72591e7942728c08802",
+    "install_to": null,
+    "installed_sha256": "a7b18f92ea2a15eb9d2ea77bf145dd144aa3f2400c61d72591e7942728c08802",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/LITD_full_ablation/hhep_tgt1000.csv.gz",
+    "bytes": 10179887,
+    "sha256": "a8608df3e8555f7a0ba2b53deccce53ad77185670f6a467621681ac81c49cd25",
+    "install_to": null,
+    "installed_sha256": "a8608df3e8555f7a0ba2b53deccce53ad77185670f6a467621681ac81c49cd25",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/LITD_full_ablation/hhep_tgt500.csv.gz",
+    "bytes": 7883784,
+    "sha256": "262e404c3662b606ed10b557ffe33b89b2cf49e43ae08c032ac7d1df218d3a94",
+    "install_to": null,
+    "installed_sha256": "262e404c3662b606ed10b557ffe33b89b2cf49e43ae08c032ac7d1df218d3a94",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/PIDC/hesc_tgt1000.csv.gz",
+    "bytes": 17536785,
+    "sha256": "e6ba884e263796b6fc7e44d9cfc29c3918442e87575b0f46c8f89694dcb787ae",
+    "install_to": null,
+    "installed_sha256": "e6ba884e263796b6fc7e44d9cfc29c3918442e87575b0f46c8f89694dcb787ae",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/PIDC/hesc_tgt500.csv.gz",
+    "bytes": 14167871,
+    "sha256": "5c4e5a7d18661cfec9e7aeb9c6fa7c5cf47050964647271f8c67f430f26010b5",
+    "install_to": null,
+    "installed_sha256": "5c4e5a7d18661cfec9e7aeb9c6fa7c5cf47050964647271f8c67f430f26010b5",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/PIDC/hhep_tgt1000.csv.gz",
+    "bytes": 15290675,
+    "sha256": "09a0fbaa10c649e3a2d35d1ffe689e4e9169fd60fa6880b32bad94a254e67ad0",
+    "install_to": null,
+    "installed_sha256": "09a0fbaa10c649e3a2d35d1ffe689e4e9169fd60fa6880b32bad94a254e67ad0",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/PIDC/hhep_tgt500.csv.gz",
+    "bytes": 11590097,
+    "sha256": "13ea912ea754d548eca7b89e0baea4384c21e4038fe5b23be4112cc16c68239b",
+    "install_to": null,
+    "installed_sha256": "13ea912ea754d548eca7b89e0baea4384c21e4038fe5b23be4112cc16c68239b",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/PPCOR/hesc_tgt1000.csv.gz",
+    "bytes": 42127832,
+    "sha256": "1dab0fc9847a702afaa345d4fe4723716694eddb557b90c908a52e11cc6fb63a",
+    "install_to": null,
+    "installed_sha256": "1dab0fc9847a702afaa345d4fe4723716694eddb557b90c908a52e11cc6fb63a",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/PPCOR/hesc_tgt500.csv.gz",
+    "bytes": 33182721,
+    "sha256": "2f74b28a519fe484024a1231999112ffe4f1553549837cfcf974e95e80afa83c",
+    "install_to": null,
+    "installed_sha256": "2f74b28a519fe484024a1231999112ffe4f1553549837cfcf974e95e80afa83c",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/PPCOR/hhep_tgt1000.csv.gz",
+    "bytes": 26601909,
+    "sha256": "429c15090c13e1698a46460910f068a8482b1f18b08fabf1b8afad97de04ed16",
+    "install_to": null,
+    "installed_sha256": "429c15090c13e1698a46460910f068a8482b1f18b08fabf1b8afad97de04ed16",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/PPCOR/hhep_tgt500.csv.gz",
+    "bytes": 20006513,
+    "sha256": "7c1e40d9f2c95043c34807da0748756f932eb013de11c1385e1360882cb4afa5",
+    "install_to": null,
+    "installed_sha256": "7c1e40d9f2c95043c34807da0748756f932eb013de11c1385e1360882cb4afa5",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/SCODE/hesc_tgt1000.csv.gz",
+    "bytes": 24681091,
+    "sha256": "a07f6888f7b8bbb6b517935b53713f6735eb3797d1b5089cadbba155b7c0984c",
+    "install_to": null,
+    "installed_sha256": "a07f6888f7b8bbb6b517935b53713f6735eb3797d1b5089cadbba155b7c0984c",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/SCODE/hesc_tgt500.csv.gz",
+    "bytes": 20053129,
+    "sha256": "1d4e38c3411654f87cece85470650afada7c37bd6e9e5c006d677b41fdd0ba0c",
+    "install_to": null,
+    "installed_sha256": "1d4e38c3411654f87cece85470650afada7c37bd6e9e5c006d677b41fdd0ba0c",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/SCODE/hhep_tgt1000.csv.gz",
+    "bytes": 15375902,
+    "sha256": "15a3ac736f59abc3c6172ed23839dea366cb60a3ed17c7a7dcc5502d033c5a1e",
+    "install_to": null,
+    "installed_sha256": "15a3ac736f59abc3c6172ed23839dea366cb60a3ed17c7a7dcc5502d033c5a1e",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/SCODE/hhep_tgt500.csv.gz",
+    "bytes": 11927621,
+    "sha256": "9a1195336dcc0e38cfe37fac4030360a2fe7d5053833e20d30f0bedf92b44919",
+    "install_to": null,
+    "installed_sha256": "9a1195336dcc0e38cfe37fac4030360a2fe7d5053833e20d30f0bedf92b44919",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/SINCERITIES/hesc_tgt1000.csv.gz",
+    "bytes": 15653216,
+    "sha256": "0f5459f39edd5493ec401c93dadd1e6035c6730a2b9400c3ce76d6f915dcd64a",
+    "install_to": null,
+    "installed_sha256": "0f5459f39edd5493ec401c93dadd1e6035c6730a2b9400c3ce76d6f915dcd64a",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/SINCERITIES/hesc_tgt500.csv.gz",
+    "bytes": 12700949,
+    "sha256": "4336db4991a84372e4c4737792d03de0750915cf200698c2de0a2b2f0ab6ba17",
+    "install_to": null,
+    "installed_sha256": "4336db4991a84372e4c4737792d03de0750915cf200698c2de0a2b2f0ab6ba17",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/SINCERITIES/hhep_tgt1000.csv.gz",
+    "bytes": 9688930,
+    "sha256": "622b2ad289c067f83e5deeaaf83f3c9af5ea2806e90683a2153df46e833f9e6d",
+    "install_to": null,
+    "installed_sha256": "622b2ad289c067f83e5deeaaf83f3c9af5ea2806e90683a2153df46e833f9e6d",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  },
+  {
+    "path": "weak_correlation/SINCERITIES/hhep_tgt500.csv.gz",
+    "bytes": 7577857,
+    "sha256": "b3cef209279dbf8781cf23cb77fdd61042be67061e74a9671a7b6878baffb05a",
+    "install_to": null,
+    "installed_sha256": "b3cef209279dbf8781cf23cb77fdd61042be67061e74a9671a7b6878baffb05a",
+    "origin": "Paper experiment input/result snapshot recovered from the authors archive"
+  }
+]

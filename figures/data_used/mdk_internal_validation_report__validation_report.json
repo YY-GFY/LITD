@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "errors": [
+    "window_pathscore_relative_error",
+    "global_weighted_pathscore_relative_error"
+  ],
+  "checks": {
+    "unique_path_indices_and_positive_lr": true,
+    "six_off_diagonal_mismatches": true,
+    "zero_MDK_coordinate_exact_zero": true,
+    "no_duplicate_pair_condition": true,
+    "all_numeric_outputs_finite": true,
+    "no_forbidden_filters": true,
+    "sample_counts": true,
+    "experiment_counts": true,
+    "window_pathscore_relative_error": false,
+    "global_weighted_pathscore_relative_error": false
+  }
+}

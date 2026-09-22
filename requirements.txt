@@ -1,0 +1,12 @@
+anndata==0.11.4
+matplotlib>=3.8,<4
+numpy==1.26.4
+pandas==2.2.2
+POT==0.9.5
+pypdf>=5,<7
+scanpy==1.11.5
+scikit-learn==1.8.0
+scipy==1.13.1
+seaborn>=0.13,<1
+torch==2.6.0
+umap-learn>=0.5,<1
